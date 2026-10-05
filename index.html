@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PocketSmart AI</title><link rel="stylesheet" href="/static/style.css"></head>
+<body><header><div class="logo">₹</div><div><h1>PocketSmart AI</h1><p>Smart Budget & Recommendation Assistant</p></div><button id="reset">Reset</button></header>
+<main><section class="hero"><b>GENERATIVE AI</b><h2>Understand your money better.</h2><p>Enter your income, expenses and savings goal to get an AI-assisted budget analysis.</p></section>
+<div class="grid"><form id="form" class="card"><h3>Budget Information</h3>
+<label>Income</label><input id="income" placeholder="Example: ₹30,000 per month">
+<label>Expenses</label><textarea id="expenses" rows="7" placeholder="Food: ₹5,000&#10;Transport: ₹3,000&#10;Education: ₹4,000"></textarea>
+<label>Savings Goal</label><input id="goal" placeholder="Example: Save ₹6,000 per month">
+<label>Question</label><textarea id="question" rows="3" placeholder="How can I reduce unnecessary spending?"></textarea>
+<button id="analyze">Analyze My Budget</button></form>
+<section class="card"><h3>AI Recommendation</h3><div id="result" class="result">Your analysis will appear here.</div></section></div>
+<section class="card chat"><h3>Ask PocketSmart AI</h3><div id="messages"></div><form id="chat"><input id="chatInput" placeholder="Ask a budgeting question"><button>Ask</button></form></section>
+<p class="note">Educational project only. Not professional financial advice.</p></main>
+<script src="/static/app.js"></script></body></html>
